@@ -2,7 +2,21 @@
 title: Setup
 ---
 
-To participate in this lesson, you will need a working Unix-like shell environment. We will be using Bash ([Bourne Again Shell](https://en.wikipedia.org/wiki/Bash_\(Unix_shell\))) which is standard on Linux and macOS. Some macOS users (Catalina or later) will have zsh (Z shell) as their default version. Even if you are a Windows user, learning Bash will open up a powerful set of tools on your personal machine, and familiarize you with the standard remote interface used on most servers and supercomputers.
+# Setup
+
+For this session, we will use the Broad's [login servers](https://intranet.broadinstitute.org/bits/service-catalog/scientific-computing/login-servers). To access those machines, your laptop needs to be on the **Broad-Internal** wireless network 
+
+To test access to the login servers when you are off-site, you will need to use the Broad VPN.
+
+### [VPN Installation](https://intranet.broadinstitute.org/bits/service-catalog/networking/vpn)
+- Use Broad Self Service ([Mac](https://intranet.broadinstitute.org/bits/service-catalog/applications/self-service-software-mac) or [Windows](https://intranet.broadinstitute.org/bits/service-catalog/applications/software-center-windows-self-service)) to install the **Cisco AnyConnect Secure Mobility Client** software
+OR
+- Visit http://vpn.broadinstitute.org and follow the prompts.
+
+-->
+
+<!-- will be using Bash ([Bourne Again Shell](https://en.wikipedia.org/wiki/Bash_\(Unix_shell\))) which is standard on Linux and macOS. 
+-->
 
 ::::::::::::::::::::::::::::::::::::::::::  prereq
 

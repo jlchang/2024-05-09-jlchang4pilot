@@ -2,32 +2,31 @@
 site: sandpaper::sandpaper_site
 ---
 
-Command line interface (CLI) and graphic user interface (GUI) are different ways of interacting with a computer's operating system. They have different pros and cons. Most people are familiar with the GUI as it is the default interface for most software, particularly on Windows and Mac OS. When using the GUI, you see and interact with visual representations of files, folders, applications, and most other functions of your computer.
-When using the CLI, you work largely with text representations of software, files, folders, input and output.
+## Welcome
+<p>
+
+### Logistics announcements
+<p>
+
+### Pilot and workshop info
+- Lesson site (our pilot is the SparkNotes version.)
+- Pilot ~1/2 of material source material - recording.
+- Workshop June 21
+- (we'll be "hitting the high points" of 5/9 material)
+<p>
+
+### Quick show of hands:
+How many students have used UNIX?<p>
+How many students use Terminal on Mac? Powershell or "Windows Subsystem for Linux" on Windows? 
+
+### What is the Unix "shell"?
+
 The *shell* is a program that allows you to control your computer by typing instructions on the CLI with a keyboard.
 
-There are several reasons to learn how to use the CLI:
+### Why are we starting with Unix? (CLI)
 
-- For most bioinformatics tools, there are no graphical interfaces. If you want to work in metagenomics or genomics, you're going to need to use the CLI/ shell.
-- The shell gives you power. The command line allows you to work more efficiently. Tasks that are repetitive (e.g. renaming hundreds of files) can be automated. Tasks that are tedious (e.g. testing a range of input parameters) can be simplified.
-- To use remote computers or cloud computing, you often need to use the shell.
+* Most bioinformatics tools do not have graphical interfaces <figure>
 
-::::::::::::::::::::::::::::::::::::::::::  prereq
+* The command line allows you to automate and simplify tasks without learning a whole programmming language.
 
-## Getting Started
-
-This lesson assumes no prior experience with the tools covered in the workshop.
-However, learners are expected to have some familiarity with biological concepts,
-including the
-concept of genomic variation within a population. Participants should bring their laptops and plan to participate actively.
-
-::::::::::::::::::::::::::::::::::::::::::::::::::
-
-::::::::::::::::::::::::::::::::::::::::::  prereq
-
-## For Instructors
-
-If you are teaching this lesson in a workshop, please see the
-[Instructor notes](instructors/instructor-notes.md).
-
-::::::::::::::::::::::::::::::::::::::::::::::::::
+* Most "big data" work (cloud or "on-prem") requires the command line.
