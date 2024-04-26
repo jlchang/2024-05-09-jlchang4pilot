@@ -14,7 +14,7 @@ exercises: 10
 
 ### Pilot and workshop info
 
-- Lesson site has details and extras (our pilot is the SparkNotes version.)
+- Lesson site has details and extra info (our pilot is the SparkNotes version.)
 - Pilot ~1/2 of material source material - recording.
 - Workshop June 21
 - (we'll be "hitting the high points" of 5/9 material)
@@ -222,7 +222,6 @@ ls
 ```output
 unix101demo  unix101demo.tar.gz
 ```
-
 
 Let's explore the `unix101demo` subdirectory.
 
