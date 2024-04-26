@@ -8,7 +8,7 @@ exercises: 10
 
 <p>
 
-### Logistics announcements
+### Announcements (Logistics)
 
 <p>
 
