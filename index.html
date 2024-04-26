@@ -267,68 +267,69 @@
       </div>
       <hr></nav><main id="main-content" class="main-content"><h1 class="schedule-heading">Summary and Setup</h1>
       
-
-<p>Command line interface (CLI) and graphic user interface (GUI) are
-different ways of interacting with a computer’s operating system. They
-have different pros and cons. Most people are familiar with the GUI as
-it is the default interface for most software, particularly on Windows
-and Mac OS. When using the GUI, you see and interact with visual
-representations of files, folders, applications, and most other
-functions of your computer. When using the CLI, you work largely with
-text representations of software, files, folders, input and output. The
-<em>shell</em> is a program that allows you to control your computer by
-typing instructions on the CLI with a keyboard.</p>
-<p>There are several reasons to learn how to use the CLI:</p>
-<ul><li>For most bioinformatics tools, there are no graphical interfaces. If
-you want to work in metagenomics or genomics, you’re going to need to
-use the CLI/ shell.</li>
-<li>The shell gives you power. The command line allows you to work more
-efficiently. Tasks that are repetitive (e.g. renaming hundreds of files)
-can be automated. Tasks that are tedious (e.g. testing a range of input
-parameters) can be simplified.</li>
-<li>To use remote computers or cloud computing, you often need to use
-the shell.</li>
-</ul><div id="getting-started" class="callout prereq">
-<div class="callout-square">
-<i class="callout-icon" data-feather="check"></i>
+<section id="welcome"><h2 class="section-heading">Welcome<a class="anchor" aria-label="anchor" href="#welcome"></a>
+</h2>
+<hr class="half-width"><p>
+</p>
+<div class="section level3">
+<h3 id="logistics-announcements">Logistics announcements<a class="anchor" aria-label="anchor" href="#logistics-announcements"></a></h3>
+<p>
+</p>
 </div>
-<div id="getting-started" class="callout-inner">
-<h3 class="callout-title">Getting Started<a class="anchor" aria-label="anchor" href="#getting-started"></a>
-</h3>
-<div class="callout-content">
-<p>This lesson assumes no prior experience with the tools covered in the
-workshop. However, learners are expected to have some familiarity with
-biological concepts, including the concept of genomic variation within a
-population. Participants should bring their laptops and plan to
-participate actively.</p>
+<div class="section level3">
+<h3 id="pilot-and-workshop-info">Pilot and workshop info<a class="anchor" aria-label="anchor" href="#pilot-and-workshop-info"></a></h3>
+<ul><li>Lesson site (our pilot is the SparkNotes version.)</li>
+<li>Pilot ~1/2 of material source material - recording.</li>
+<li>Workshop June 21</li>
+<li>(we’ll be “hitting the high points” of 5/9 material)
+<p></p>
+</li>
+</ul></div>
+<div class="section level3">
+<h3 id="quick-show-of-hands">Quick show of hands:<a class="anchor" aria-label="anchor" href="#quick-show-of-hands"></a></h3>
+How many students have used UNIX?
+<p>
+</p>
+<p>How many students use Terminal on Mac? Powershell or “Windows
+Subsystem for Linux” on Windows?</p>
 </div>
+<div class="section level3">
+<h3 id="what-is-the-unix-shell">What is the Unix “shell”?<a class="anchor" aria-label="anchor" href="#what-is-the-unix-shell"></a></h3>
+<p>The <em>shell</em> is a program that allows you to control your
+computer by typing instructions on the CLI with a keyboard.</p>
 </div>
-</div>
-<div id="for-instructors" class="callout prereq">
-<div class="callout-square">
-<i class="callout-icon" data-feather="check"></i>
-</div>
-<div id="for-instructors" class="callout-inner">
-<h3 class="callout-title">For Instructors<a class="anchor" aria-label="anchor" href="#for-instructors"></a>
-</h3>
-<div class="callout-content">
-<p>If you are teaching this lesson in a workshop, please see the <a href="instructor-notes.html">Instructor notes</a>.</p>
-</div>
-</div>
-</div>
-<!-- 
+<div class="section level3">
+<h3 id="why-are-we-starting-with-unix-cli">Why are we starting with Unix? (CLI)<a class="anchor" aria-label="anchor" href="#why-are-we-starting-with-unix-cli"></a></h3>
+<ul><li>
+<p>Most bioinformatics tools do not have graphical interfaces</p>
+<figure></figure></li>
+<li><p>The command line allows you to automate and simplify tasks
+without learning a whole programmming language.</p></li>
+<li><p>Most “big data” work (cloud or “on-prem”) requires the command
+line.</p></li>
+</ul><!-- 
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use. 
- -->
-
-
-      <section id="setup"><p>To participate in this lesson, you will need a working Unix-like
-shell environment. We will be using Bash (<a href="https://en.wikipedia.org/wiki/Bash_(Unix_shell)" class="external-link">Bourne Again
-Shell</a>) which is standard on Linux and macOS. Some macOS users
-(Catalina or later) will have zsh (Z shell) as their default version.
-Even if you are a Windows user, learning Bash will open up a powerful
-set of tools on your personal machine, and familiarize you with the
-standard remote interface used on most servers and supercomputers.</p>
+ --></div>
+</section><section id="setup"><div class="section level1">
+<h1 id="setup">Setup<a class="anchor" aria-label="anchor" href="#setup"></a></h1>
+<p>For this session, we will use the Broad’s <a href="https://intranet.broadinstitute.org/bits/service-catalog/scientific-computing/login-servers" class="external-link">login
+servers</a>. To access those machines, your laptop needs to be on the
+<strong>Broad-Internal</strong> wireless network</p>
+<p>To test access to the login servers when you are off-site, you will
+need to use the Broad VPN.</p>
+<div class="section level3">
+<h3 id="vpn-installation"><a href="https://intranet.broadinstitute.org/bits/service-catalog/networking/vpn" class="external-link">VPN
+Installation</a><a class="anchor" aria-label="anchor" href="#vpn-installation"></a></h3>
+<ul><li>Use Broad Self Service (<a href="https://intranet.broadinstitute.org/bits/service-catalog/applications/self-service-software-mac" class="external-link">Mac</a>
+or <a href="https://intranet.broadinstitute.org/bits/service-catalog/applications/software-center-windows-self-service" class="external-link">Windows</a>)
+to install the <strong>Cisco AnyConnect Secure Mobility Client</strong>
+software OR</li>
+<li>Visit <a href="http://vpn.broadinstitute.org" class="external-link uri">http://vpn.broadinstitute.org</a> and follow the
+prompts.</li>
+</ul><p>–&gt;</p>
+<!-- will be using Bash ([Bourne Again Shell](https://en.wikipedia.org/wiki/Bash_\(Unix_shell\))) which is standard on Linux and macOS. 
+-->
 <div id="terminal-setup" class="callout prereq">
 <div class="callout-square">
 <i class="callout-icon" data-feather="check"></i>
@@ -422,7 +423,8 @@ with the data in <code>shell-lesson</code> folder.</p>
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use. 
  -->
-
+</div>
+</div>
 
       </section></main><nav class="bottom-pagination mx-md-4" aria-label="Next Chapter"><!-- content for small screens --><div class="d-block d-sm-block d-md-none">
         <a class="chapter-link float-end" href="01-introduction.html">Next<i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>

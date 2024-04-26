@@ -31,6 +31,12 @@
     <loc>https://NA.github.io/NA/LICENSE.html</loc>
   </url>
   <url>
+    <loc>https://NA.github.io/NA/aio.html</loc>
+  </url>
+  <url>
+    <loc>https://NA.github.io/NA/images.html</loc>
+  </url>
+  <url>
     <loc>https://NA.github.io/NA/index.html</loc>
   </url>
   <url>
@@ -64,7 +70,19 @@
     <loc>https://NA.github.io/NA/instructor/LICENSE.html</loc>
   </url>
   <url>
+    <loc>https://NA.github.io/NA/instructor/aio.html</loc>
+  </url>
+  <url>
+    <loc>https://NA.github.io/NA/instructor/images.html</loc>
+  </url>
+  <url>
     <loc>https://NA.github.io/NA/instructor/index.html</loc>
+  </url>
+  <url>
+    <loc>https://NA.github.io/NA/instructor/instructor-notes.html</loc>
+  </url>
+  <url>
+    <loc>https://NA.github.io/NA/instructor/key-points.html</loc>
   </url>
   <url>
     <loc>https://NA.github.io/NA/instructor/next-episode.html</loc>
@@ -77,6 +95,12 @@
   </url>
   <url>
     <loc>https://NA.github.io/NA/instructor/shellCheatSheet.html</loc>
+  </url>
+  <url>
+    <loc>https://NA.github.io/NA/instructor-notes.html</loc>
+  </url>
+  <url>
+    <loc>https://NA.github.io/NA/key-points.html</loc>
   </url>
   <url>
     <loc>https://NA.github.io/NA/next-episode.html</loc>
